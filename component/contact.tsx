@@ -68,7 +68,6 @@ export const ContactSection: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
-          {/* Left Column: Office Details & Visual Banner */}
           <motion.div 
             variants={containerVariants}
             initial="hidden"
