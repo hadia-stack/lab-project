@@ -7,13 +7,13 @@ export const BlogSection: React.FC = () => {
   return (
     <section id="blog" className="py-24 bg-gradient-to-b from-slate-50 via-white to-sky-50/40 relative overflow-hidden">
       
-      {/* Background Decorative Lighting */}
+      
       <div className="absolute top-1/3 right-0 w-96 h-96 bg-[#008BC5]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 left-0 w-96 h-96 bg-[#E87722]/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* Newsletter / Article Subscription Strip */}
+        git checkout -b "DG-TV-2"
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
